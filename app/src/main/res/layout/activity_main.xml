@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/testuchun9"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/dunyoviytestlar"
+        android:layout_width="193dp"
+        android:layout_height="104dp"
+        android:background="@drawable/round_button"
+        android:text="dunyoviy testlar"
+        android:textStyle="bold"
+        app:backgroundTint="#E608081E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.133" />
+
+    <Button
+        android:id="@+id/diniytestlar"
+        android:layout_width="0dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/round_button"
+        android:text="diniy testlar"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:backgroundTint="#E608081E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/dunyoviytestlar"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/dunyoviytestlar"
+        app:layout_constraintTop_toBottomOf="@+id/dunyoviytestlar"
+        app:layout_constraintVertical_bias="0.011" />
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="68dp"
+        android:background="@drawable/round_button"
+        android:text="biz haqimizda"
+        android:textStyle="bold"
+        app:backgroundTint="#E608081E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/exit"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="108dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/round_button"
+        android:text="chiqish"
+        android:textStyle="bold"
+        app:backgroundTint="#E608081E"
+        app:layout_constraintBottom_toBottomOf="@+id/about"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/about"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
